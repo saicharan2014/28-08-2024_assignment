@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+
+  background-color: rgb(1, 30, 27);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+ul li {
+  margin: 10px;
+  padding: 5px;
+  list-style: none;
+
+}
+li a{
+color: white;
+    text-decoration: none;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+footer{
+    background-color: rgb(1, 30, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.intro {
+  margin: 30px;
+}
+.intro h1,
+p {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.about {
+  margin: 30px;
+}
+.about h1,
+p {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.project {
+  margin: 30px;
+}
+.project h3,
+p,
+h1 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+#box1 {
+  margin: 20px;
+  padding: 0 100px;
+  background-color: rgb(210, 199, 199);
+}
+#box2 {
+  background-color: rgb(210, 199, 199);
+  margin: 20px;
+  padding: 0 100px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    margin: 10px;
+    padding: 5px;
+}
+
+button{
+    margin: 30px; ;
+    padding:5px;
+
+}
